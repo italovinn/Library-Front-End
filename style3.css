@@ -1,0 +1,119 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(228, 228, 228);
+}
+
+.left, .right, .center {
+    flex: 1;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+#botao2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #d1d1d1;
+    color: rgb(1, 1, 1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+aside {
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+    margin: 0%;
+}
+
+.left2 {
+    display: inline-block; 
+    vertical-align: top;
+    margin-right: 10px; 
+}
+
+.right2 {
+    display: inline-block;
+    vertical-align: top; 
+}
+
+form {
+    margin-left: 1450px; 
+}
+
+ul{
+    margin-left: 1410px; 
+    font-size: small;
+    nav-up: auto;
+}
+
+.livro1{
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 400px; 
+}
+
+.livro2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.livro3{
+    margin-right: 5px;
+}
+
+.imagen{
+    margin-bottom: 39px;
+
+}
+
+.imagen2{
+    margin-bottom: 6px;
+}
+
+.guia1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.preco1{
+    font-weight: bold; 
+    color: blue;
+    text-align: center;
+}
+
+.guia2{
+    text-align: center;
+
+}
+
+.preco2 {
+    font-weight: bold; /* Texto em negrito */
+    color: blue;
+    text-align: center;
+}
+
+#botao1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0000ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

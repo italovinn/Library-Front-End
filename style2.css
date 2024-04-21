@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+}
+
+.left, .right, .center {
+    flex: 1;
+    text-align: center;
+}
+
+#nemo{
+    margin-top: 40px;
+}
+
+#lemai{
+    margin-top: 10px;
+}
+
+#tel{
+    margin-top: 10px;
+}
+
+#pin{
+    margin-top: 10px;
+}
+
+.right {
+    text-align: right;
+}
+
+button{
+    margin: 25px;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    color: #f1f1f1;
+}
